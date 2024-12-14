@@ -2,7 +2,6 @@
 Pods/
 DerivedData/
 *.xcuserdatad
-*.xcworkspace
 *.lock
 build/
 # Ignore environment files
