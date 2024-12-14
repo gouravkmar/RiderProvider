@@ -20,6 +20,7 @@
 		D2A64B8B2D0DC1BE00FCA136 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A64B8A2D0DC1BE00FCA136 /* Car.swift */; };
 		D2A64B8D2D0DC1D500FCA136 /* Ride.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A64B8C2D0DC1D500FCA136 /* Ride.swift */; };
 		D2A64B8F2D0DC1EE00FCA136 /* Loaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A64B8E2D0DC1EE00FCA136 /* Loaction.swift */; };
+		D2A64B922D0DC51C00FCA136 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D2A64B912D0DC51C00FCA136 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		D2A64B8A2D0DC1BE00FCA136 /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
 		D2A64B8C2D0DC1D500FCA136 /* Ride.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ride.swift; sourceTree = "<group>"; };
 		D2A64B8E2D0DC1EE00FCA136 /* Loaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loaction.swift; sourceTree = "<group>"; };
+		D2A64B912D0DC51C00FCA136 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 		D2A64B572D0D7FED00FCA136 /* RiderProvider */ = {
 			isa = PBXGroup;
 			children = (
+				D2A64B902D0DC50200FCA136 /* Info */,
 				D2A64B872D0DC18B00FCA136 /* Models */,
 				D2A64B582D0D7FED00FCA136 /* RiderProviderApp.swift */,
 				D2A64B5A2D0D7FED00FCA136 /* ContentView.swift */,
@@ -151,6 +154,14 @@
 				D2A64B8E2D0DC1EE00FCA136 /* Loaction.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		D2A64B902D0DC50200FCA136 /* Info */ = {
+			isa = PBXGroup;
+			children = (
+				D2A64B912D0DC51C00FCA136 /* GoogleService-Info.plist */,
+			);
+			path = Info;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D2A64B602D0D7FEE00FCA136 /* Preview Assets.xcassets in Resources */,
+				D2A64B922D0DC51C00FCA136 /* GoogleService-Info.plist in Resources */,
 				D2A64B5D2D0D7FEE00FCA136 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
