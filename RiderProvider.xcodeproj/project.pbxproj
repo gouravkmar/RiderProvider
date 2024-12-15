@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		1CE342D40D125E556081F40F /* Pods_RiderProvider_RiderProviderUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B183ADBE23F8359EE10C76C7 /* Pods_RiderProvider_RiderProviderUITests.framework */; };
+		5F88AD932D0EB79A005CC912 /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F88AD922D0EB794005CC912 /* AuthManager.swift */; };
+		5F88AD982D0EB8AE005CC912 /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F88AD972D0EB8AE005CC912 /* LoginScreen.swift */; };
+		5F88AD9A2D0EBA9E005CC912 /* OTPLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F88AD992D0EBA9E005CC912 /* OTPLoginView.swift */; };
+		5F88AD9D2D0EE541005CC912 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5F88AD9C2D0EE541005CC912 /* GoogleService-Info.plist */; };
 		8FBF00C873BDD52F2E42A5E2 /* Pods_RiderProvider.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8F6C0DE25901788F3B1C132 /* Pods_RiderProvider.framework */; };
 		C3763944B04BAEC34478BABC /* Pods_RiderProviderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 017ED96F3E65188FBBB64BA1 /* Pods_RiderProviderTests.framework */; };
 		D239AD5C2D0ECEF0006EEAD8 /* FirebaseAuth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D239AD5B2D0ECEF0006EEAD8 /* FirebaseAuth.framework */; };
@@ -25,7 +29,6 @@
 		D2A64B8B2D0DC1BE00FCA136 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A64B8A2D0DC1BE00FCA136 /* Car.swift */; };
 		D2A64B8D2D0DC1D500FCA136 /* Ride.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A64B8C2D0DC1D500FCA136 /* Ride.swift */; };
 		D2A64B8F2D0DC1EE00FCA136 /* Loaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A64B8E2D0DC1EE00FCA136 /* Loaction.swift */; };
-		D2A64B922D0DC51C00FCA136 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D2A64B912D0DC51C00FCA136 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +69,11 @@
 		49628F0E3F1460939A92BCD2 /* Pods-RiderProvider-RiderProviderUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RiderProvider-RiderProviderUITests.release.xcconfig"; path = "Target Support Files/Pods-RiderProvider-RiderProviderUITests/Pods-RiderProvider-RiderProviderUITests.release.xcconfig"; sourceTree = "<group>"; };
 		4FDD1B8E181D5A4AB69F7BF2 /* Pods-RiderProvider.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RiderProvider.release.xcconfig"; path = "Target Support Files/Pods-RiderProvider/Pods-RiderProvider.release.xcconfig"; sourceTree = "<group>"; };
 		58CE74287E5341BBA4E20F80 /* Pods-RiderProviderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RiderProviderTests.release.xcconfig"; path = "Target Support Files/Pods-RiderProviderTests/Pods-RiderProviderTests.release.xcconfig"; sourceTree = "<group>"; };
+		5F88AD922D0EB794005CC912 /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
+		5F88AD972D0EB8AE005CC912 /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
+		5F88AD992D0EBA9E005CC912 /* OTPLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPLoginView.swift; sourceTree = "<group>"; };
+		5F88AD9B2D0ECEE1005CC912 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		5F88AD9C2D0EE541005CC912 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		A8F6C0DE25901788F3B1C132 /* Pods_RiderProvider.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RiderProvider.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B183ADBE23F8359EE10C76C7 /* Pods_RiderProvider_RiderProviderUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RiderProvider_RiderProviderUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D239AD5A2D0ECEC8006EEAD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
@@ -86,7 +94,6 @@
 		D2A64B8A2D0DC1BE00FCA136 /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
 		D2A64B8C2D0DC1D500FCA136 /* Ride.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ride.swift; sourceTree = "<group>"; };
 		D2A64B8E2D0DC1EE00FCA136 /* Loaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loaction.swift; sourceTree = "<group>"; };
-		D2A64B912D0DC51C00FCA136 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		E1F24CE3C92ACE6BD764944E /* Pods-RiderProvider.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RiderProvider.debug.xcconfig"; path = "Target Support Files/Pods-RiderProvider/Pods-RiderProvider.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -130,6 +137,31 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		5F88AD902D0EB77A005CC912 /* Authentication  */ = {
+			isa = PBXGroup;
+			children = (
+				5F88AD922D0EB794005CC912 /* AuthManager.swift */,
+			);
+			path = "Authentication ";
+			sourceTree = "<group>";
+		};
+		5F88AD912D0EB782005CC912 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				5F88AD902D0EB77A005CC912 /* Authentication  */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		5F88AD942D0EB806005CC912 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5F88AD972D0EB8AE005CC912 /* LoginScreen.swift */,
+				5F88AD992D0EBA9E005CC912 /* OTPLoginView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		B36D43D0515DD9245C9D049B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -168,7 +200,10 @@
 		D2A64B572D0D7FED00FCA136 /* RiderProvider */ = {
 			isa = PBXGroup;
 			children = (
-				D239AD5A2D0ECEC8006EEAD8 /* Info.plist */,
+
+				5F88AD9B2D0ECEE1005CC912 /* Info.plist */,
+				5F88AD942D0EB806005CC912 /* View */,
+				5F88AD912D0EB782005CC912 /* Utilities */,
 				D2A64B902D0DC50200FCA136 /* Info */,
 				D2A64B872D0DC18B00FCA136 /* Models */,
 				D2A64B582D0D7FED00FCA136 /* RiderProviderApp.swift */,
@@ -220,7 +255,7 @@
 		D2A64B902D0DC50200FCA136 /* Info */ = {
 			isa = PBXGroup;
 			children = (
-				D2A64B912D0DC51C00FCA136 /* GoogleService-Info.plist */,
+				5F88AD9C2D0EE541005CC912 /* GoogleService-Info.plist */,
 			);
 			path = Info;
 			sourceTree = "<group>";
@@ -336,7 +371,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D2A64B602D0D7FEE00FCA136 /* Preview Assets.xcassets in Resources */,
-				D2A64B922D0DC51C00FCA136 /* GoogleService-Info.plist in Resources */,
+				5F88AD9D2D0EE541005CC912 /* GoogleService-Info.plist in Resources */,
 				D2A64B5D2D0D7FEE00FCA136 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -466,6 +501,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D2A64B622D0D7FEE00FCA136 /* Persistence.swift in Sources */,
+				5F88AD932D0EB79A005CC912 /* AuthManager.swift in Sources */,
+				5F88AD9A2D0EBA9E005CC912 /* OTPLoginView.swift in Sources */,
 				D2A64B5B2D0D7FED00FCA136 /* ContentView.swift in Sources */,
 				D2A64B8F2D0DC1EE00FCA136 /* Loaction.swift in Sources */,
 				D2A64B8B2D0DC1BE00FCA136 /* Car.swift in Sources */,
@@ -473,6 +510,7 @@
 				D2A64B892D0DC1A500FCA136 /* User.swift in Sources */,
 				D2A64B652D0D7FEE00FCA136 /* RiderProvider.xcdatamodeld in Sources */,
 				D2A64B8D2D0DC1D500FCA136 /* Ride.swift in Sources */,
+				5F88AD982D0EB8AE005CC912 /* LoginScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -637,7 +675,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"RiderProvider/Preview Content\"";
-				DEVELOPMENT_TEAM = NTCTX3HD5L;
+				DEVELOPMENT_TEAM = 32962W2QPK;
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -670,7 +708,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"RiderProvider/Preview Content\"";
-				DEVELOPMENT_TEAM = NTCTX3HD5L;
+				DEVELOPMENT_TEAM = 32962W2QPK;
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;

@@ -14,6 +14,9 @@ target 'RiderProvider' do
   # For example, to use Firebase Authentication and Cloud Firestore
   pod 'FirebaseAuth'
   pod 'FirebaseFirestore'
+  pod 'FirebaseUI'
+  pod 'GoogleSignIn'
+  pod 'GoogleSignInSwiftSupport'
   # Pods for RiderProvider
 
   target 'RiderProviderTests' do
