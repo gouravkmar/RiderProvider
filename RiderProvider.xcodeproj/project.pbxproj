@@ -10,6 +10,8 @@
 		1CE342D40D125E556081F40F /* Pods_RiderProvider_RiderProviderUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B183ADBE23F8359EE10C76C7 /* Pods_RiderProvider_RiderProviderUITests.framework */; };
 		8FBF00C873BDD52F2E42A5E2 /* Pods_RiderProvider.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8F6C0DE25901788F3B1C132 /* Pods_RiderProvider.framework */; };
 		C3763944B04BAEC34478BABC /* Pods_RiderProviderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 017ED96F3E65188FBBB64BA1 /* Pods_RiderProviderTests.framework */; };
+		D239AD5C2D0ECEF0006EEAD8 /* FirebaseAuth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D239AD5B2D0ECEF0006EEAD8 /* FirebaseAuth.framework */; };
+		D239AD5D2D0ECEF0006EEAD8 /* FirebaseAuth.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D239AD5B2D0ECEF0006EEAD8 /* FirebaseAuth.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D2A64B592D0D7FED00FCA136 /* RiderProviderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A64B582D0D7FED00FCA136 /* RiderProviderApp.swift */; };
 		D2A64B5B2D0D7FED00FCA136 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A64B5A2D0D7FED00FCA136 /* ContentView.swift */; };
 		D2A64B5D2D0D7FEE00FCA136 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2A64B5C2D0D7FEE00FCA136 /* Assets.xcassets */; };
@@ -43,6 +45,20 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		D239AD5E2D0ECEF1006EEAD8 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				D239AD5D2D0ECEF0006EEAD8 /* FirebaseAuth.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		017ED96F3E65188FBBB64BA1 /* Pods_RiderProviderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RiderProviderTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		01C2E028A6E04F1CF900194E /* Pods-RiderProvider-RiderProviderUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RiderProvider-RiderProviderUITests.debug.xcconfig"; path = "Target Support Files/Pods-RiderProvider-RiderProviderUITests/Pods-RiderProvider-RiderProviderUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -52,6 +68,8 @@
 		58CE74287E5341BBA4E20F80 /* Pods-RiderProviderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RiderProviderTests.release.xcconfig"; path = "Target Support Files/Pods-RiderProviderTests/Pods-RiderProviderTests.release.xcconfig"; sourceTree = "<group>"; };
 		A8F6C0DE25901788F3B1C132 /* Pods_RiderProvider.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RiderProvider.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B183ADBE23F8359EE10C76C7 /* Pods_RiderProvider_RiderProviderUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RiderProvider_RiderProviderUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D239AD5A2D0ECEC8006EEAD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		D239AD5B2D0ECEF0006EEAD8 /* FirebaseAuth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseAuth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2A64B552D0D7FED00FCA136 /* RiderProvider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RiderProvider.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2A64B582D0D7FED00FCA136 /* RiderProviderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RiderProviderApp.swift; sourceTree = "<group>"; };
 		D2A64B5A2D0D7FED00FCA136 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -78,6 +96,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8FBF00C873BDD52F2E42A5E2 /* Pods_RiderProvider.framework in Frameworks */,
+				D239AD5C2D0ECEF0006EEAD8 /* FirebaseAuth.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,6 +122,7 @@
 		2B6B82E00435B3022FBB8AAB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D239AD5B2D0ECEF0006EEAD8 /* FirebaseAuth.framework */,
 				A8F6C0DE25901788F3B1C132 /* Pods_RiderProvider.framework */,
 				B183ADBE23F8359EE10C76C7 /* Pods_RiderProvider_RiderProviderUITests.framework */,
 				017ED96F3E65188FBBB64BA1 /* Pods_RiderProviderTests.framework */,
@@ -148,6 +168,7 @@
 		D2A64B572D0D7FED00FCA136 /* RiderProvider */ = {
 			isa = PBXGroup;
 			children = (
+				D239AD5A2D0ECEC8006EEAD8 /* Info.plist */,
 				D2A64B902D0DC50200FCA136 /* Info */,
 				D2A64B872D0DC18B00FCA136 /* Models */,
 				D2A64B582D0D7FED00FCA136 /* RiderProviderApp.swift */,
@@ -216,6 +237,7 @@
 				D2A64B522D0D7FED00FCA136 /* Frameworks */,
 				D2A64B532D0D7FED00FCA136 /* Resources */,
 				4E4011C35EF3994384B3DCEA /* [CP] Embed Pods Frameworks */,
+				D239AD5E2D0ECEF1006EEAD8 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -619,6 +641,7 @@
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RiderProvider/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -651,6 +674,7 @@
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RiderProvider/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
